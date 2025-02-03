@@ -1,3 +1,7 @@
+function openApp1() {
+        window.open("intent://somepath#Intent;scheme=myapp;package=com.example.app;end;", "_self");
+    }
+
 function openApp() {
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
  if (true) {
